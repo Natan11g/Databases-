@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DF2E79EF485EEEE7C111D9A /* Pods_natgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA2038423541F1407602FDA /* Pods_natgram.framework */; };
+		91A6EC2A2877319E00644F6C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A6EC292877319E00644F6C /* SettingsViewController.swift */; };
+		91A6EC2C287731AE00644F6C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A6EC2B287731AE00644F6C /* FeedViewController.swift */; };
+		91A6EC2E287731BB00644F6C /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A6EC2D287731BB00644F6C /* UploadViewController.swift */; };
+		91C7D1DE28770D42001E6FF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C7D1DD28770D42001E6FF1 /* AppDelegate.swift */; };
+		91C7D1E028770D42001E6FF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C7D1DF28770D42001E6FF1 /* SceneDelegate.swift */; };
+		91C7D1E228770D42001E6FF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C7D1E128770D42001E6FF1 /* ViewController.swift */; };
+		91C7D1E528770D42001E6FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C7D1E328770D42001E6FF1 /* Main.storyboard */; };
+		91C7D1E728770D43001E6FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C7D1E628770D43001E6FF1 /* Assets.xcassets */; };
+		91C7D1EA28770D43001E6FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C7D1E828770D43001E6FF1 /* LaunchScreen.storyboard */; };
+		91C7D1F228771286001E6FF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91C7D1F128771286001E6FF1 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1052BBDB380B7735805E1005 /* Pods-natgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-natgram.debug.xcconfig"; path = "Target Support Files/Pods-natgram/Pods-natgram.debug.xcconfig"; sourceTree = "<group>"; };
+		91A6EC292877319E00644F6C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		91A6EC2B287731AE00644F6C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		91A6EC2D287731BB00644F6C /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		91C7D1DA28770D42001E6FF1 /* natgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = natgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C7D1DD28770D42001E6FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91C7D1DF28770D42001E6FF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91C7D1E128770D42001E6FF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91C7D1E428770D42001E6FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91C7D1E628770D43001E6FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91C7D1E928770D43001E6FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91C7D1EB28770D43001E6FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C7D1F128771286001E6FF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ABA2038423541F1407602FDA /* Pods_natgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_natgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B486A08C8F49C3C307299E58 /* Pods-natgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-natgram.release.xcconfig"; path = "Target Support Files/Pods-natgram/Pods-natgram.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91C7D1D728770D42001E6FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF2E79EF485EEEE7C111D9A /* Pods_natgram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163172F522BD5D2CC357B99E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABA2038423541F1407602FDA /* Pods_natgram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91C7D1D128770D42001E6FF1 = {
+			isa = PBXGroup;
+			children = (
+				91C7D1DC28770D42001E6FF1 /* natgram */,
+				91C7D1DB28770D42001E6FF1 /* Products */,
+				DB3913321545C89FE69B8664 /* Pods */,
+				163172F522BD5D2CC357B99E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91C7D1DB28770D42001E6FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91C7D1DA28770D42001E6FF1 /* natgram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91C7D1DC28770D42001E6FF1 /* natgram */ = {
+			isa = PBXGroup;
+			children = (
+				91C7D1DD28770D42001E6FF1 /* AppDelegate.swift */,
+				91C7D1DF28770D42001E6FF1 /* SceneDelegate.swift */,
+				91C7D1E128770D42001E6FF1 /* ViewController.swift */,
+				91C7D1E328770D42001E6FF1 /* Main.storyboard */,
+				91C7D1F128771286001E6FF1 /* GoogleService-Info.plist */,
+				91C7D1E628770D43001E6FF1 /* Assets.xcassets */,
+				91C7D1E828770D43001E6FF1 /* LaunchScreen.storyboard */,
+				91C7D1EB28770D43001E6FF1 /* Info.plist */,
+				91A6EC292877319E00644F6C /* SettingsViewController.swift */,
+				91A6EC2B287731AE00644F6C /* FeedViewController.swift */,
+				91A6EC2D287731BB00644F6C /* UploadViewController.swift */,
+			);
+			path = natgram;
+			sourceTree = "<group>";
+		};
+		DB3913321545C89FE69B8664 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1052BBDB380B7735805E1005 /* Pods-natgram.debug.xcconfig */,
+				B486A08C8F49C3C307299E58 /* Pods-natgram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91C7D1D928770D42001E6FF1 /* natgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C7D1EE28770D43001E6FF1 /* Build configuration list for PBXNativeTarget "natgram" */;
+			buildPhases = (
+				9E2CFB8579D728727B6C1000 /* [CP] Check Pods Manifest.lock */,
+				91C7D1D628770D42001E6FF1 /* Sources */,
+				91C7D1D728770D42001E6FF1 /* Frameworks */,
+				91C7D1D828770D42001E6FF1 /* Resources */,
+				52CC743AB24E8D17649E34FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = natgram;
+			productName = natgram;
+			productReference = 91C7D1DA28770D42001E6FF1 /* natgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91C7D1D228770D42001E6FF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					91C7D1D928770D42001E6FF1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 91C7D1D528770D42001E6FF1 /* Build configuration list for PBXProject "natgram" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91C7D1D128770D42001E6FF1;
+			productRefGroup = 91C7D1DB28770D42001E6FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91C7D1D928770D42001E6FF1 /* natgram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91C7D1D828770D42001E6FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C7D1EA28770D43001E6FF1 /* LaunchScreen.storyboard in Resources */,
+				91C7D1F228771286001E6FF1 /* GoogleService-Info.plist in Resources */,
+				91C7D1E728770D43001E6FF1 /* Assets.xcassets in Resources */,
+				91C7D1E528770D42001E6FF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52CC743AB24E8D17649E34FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-natgram/Pods-natgram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-natgram/Pods-natgram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-natgram/Pods-natgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2CFB8579D728727B6C1000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-natgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91C7D1D628770D42001E6FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C7D1E228770D42001E6FF1 /* ViewController.swift in Sources */,
+				91A6EC2E287731BB00644F6C /* UploadViewController.swift in Sources */,
+				91C7D1DE28770D42001E6FF1 /* AppDelegate.swift in Sources */,
+				91A6EC2C287731AE00644F6C /* FeedViewController.swift in Sources */,
+				91C7D1E028770D42001E6FF1 /* SceneDelegate.swift in Sources */,
+				91A6EC2A2877319E00644F6C /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91C7D1E328770D42001E6FF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91C7D1E428770D42001E6FF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91C7D1E828770D43001E6FF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91C7D1E928770D43001E6FF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91C7D1EC28770D43001E6FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91C7D1ED28770D43001E6FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91C7D1EF28770D43001E6FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1052BBDB380B7735805E1005 /* Pods-natgram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY2SN3XR6M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = natgram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.natgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91C7D1F028770D43001E6FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B486A08C8F49C3C307299E58 /* Pods-natgram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY2SN3XR6M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = natgram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.natgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91C7D1D528770D42001E6FF1 /* Build configuration list for PBXProject "natgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C7D1EC28770D43001E6FF1 /* Debug */,
+				91C7D1ED28770D43001E6FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C7D1EE28770D43001E6FF1 /* Build configuration list for PBXNativeTarget "natgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C7D1EF28770D43001E6FF1 /* Debug */,
+				91C7D1F028770D43001E6FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91C7D1D228770D42001E6FF1 /* Project object */;
+}
